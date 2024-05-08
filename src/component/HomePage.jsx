@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <div className='HomePage'>
         <div>
-            <input type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder='Enter your name (without Space) '/>
+            <input type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder='Enter your name (No Space) '/>
             <button onClick={submitHandler}>Join</button>
         </div>
     </div>

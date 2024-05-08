@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
-// import dotenv from 'dotenv'
+// import dotenv from 'dotenv/config.js'  
 // dotenv.config()
 
 const VideoPage = () => {
